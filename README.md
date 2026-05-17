@@ -111,7 +111,7 @@ Model performance is evaluated using:
 ```python
 model.score(x_test_scaled, y_test)
 ```
-Result of: 60%
+R2 Score: 60%
 ---
 
 ### 9. RF Model Training
@@ -130,14 +130,14 @@ Model performance is evaluated using:
 ```python
 model.score(x_test_scaled, y_test)
 ```
-Result of: 80%
+R2 Score: 80%
 ---
 
 ## Results
 
 * The Random Forest model outputs an **R² score** indicating how well it explains variance in housing prices.
 * Higher values → better performance.
- --> Random Forest model perform better that Linear Regression model
+ --> Random Forest outperformed Linear Regression because it can capture non-linear relationships and feature interactions in the housing dataset.
 ---
 
 ## Key Insights
